@@ -5,7 +5,7 @@ A Vue plugin for for attributed calendars date pickers using Vue 3, Typescript a
 ### Install Plugin
 
 ```shell
-yarn add advanced-datepicker-vue-3@next
+yarn add v3-date@next
 ```
 
 ### Use Plugin
@@ -13,13 +13,13 @@ yarn add advanced-datepicker-vue-3@next
 :warning: **As of `v3.0.0-alpha.7`, all installation methods require manual import of component styles. This is due to Vite build restrictions in libary mode.**
 
 ```js
-import 'advanced-datepicker-vue-3/dist/style.css';
+import 'v3-date/dist/style.css';
 ```
 
 #### Method 1: Use Globally
 
 ```js
-import VCalendar from 'advanced-datepicker-vue-3';
+import VCalendar from 'v3-date';
 
 // Use plugin with defaults
 app.use(VCalendar, {})
@@ -28,7 +28,7 @@ app.use(VCalendar, {})
 ```html
 <!-- Component.vue template -->
 <template>
-  <advanced-datepicker-vue-3 />
+  <v3-date />
   <v-date-picker v-model="date" />
 </template>
 ```
@@ -37,7 +37,7 @@ app.use(VCalendar, {})
 
 ```js
 // main.js
-import { SetupCalendar, Calendar, DatePicker } from 'advanced-datepicker-vue-3';
+import { SetupCalendar, Calendar, DatePicker } from 'v3-date';
 
 // Setup plugin for defaults or `$screens` (optional)
 app.use(SetupCalendar, {})
@@ -58,7 +58,7 @@ app.component('DatePicker', DatePicker)
 
 ```js
 // main.js
-import { SetupCalendar } from 'advanced-datepicker-vue-3';
+import { SetupCalendar } from 'v3-date';
 
 // Setup plugin for defaults or `$screens` (optional)
 app.use(SetupCalendar, {})
@@ -74,7 +74,7 @@ app.use(SetupCalendar, {})
 
 ```js
 // Component.vue script
-import { Calendar, DatePicker } from 'advanced-datepicker-vue-3';
+import { Calendar, DatePicker } from 'v3-date';
 
 export default {
   components: {
@@ -96,10 +96,10 @@ Please follow below mentioned steps to clone and build this project:
 ### Clone the repo
 
 ```sh
-git clone https://github.com/vdomanskyi/advanced-datepicker-vue-3
+git clone https://github.com/vdomanskyi/v3-date
 
 # Move to directory
-cd advanced-datepicker-vue-3
+cd v3-date
 ```
 
 ### Install dependencies

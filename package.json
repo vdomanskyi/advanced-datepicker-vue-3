@@ -1,20 +1,20 @@
 {
-  "name": "advanced-datepicker-vue-3",
-  "version": "0.1.2",
+  "name": "v3-date",
+  "version": "0.1.3",
   "description": "A clean and extendable plugin for building simple attributed calendars in Vue.js.",
   "author": "Valentyn Domanskyi <v.domanskyi5@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vdomanskyi/advanced-datepicker-vue-3"
+    "url": "https://github.com/vdomanskyi/v3-date"
   },
-  "homepage": "https://github.com/vdomanskyi/advanced-datepicker-vue-3",
+  "homepage": "https://github.com/vdomanskyi/v3-date",
   "keywords": [
     "vue",
     "vue3",
     "vuejs",
     "plugin",
     "calendar",
-    "advanced-datepicker-vue-3",
+    "v3-date",
     "datepicker",
     "date picker"
   ],
@@ -24,12 +24,12 @@
     "dist",
     "types/*.d.ts"
   ],
-  "main": "dist/advanced-datepicker-vue-3.umd.js",
-  "module": "dist/advanced-datepicker-vue-3.es.js",
+  "main": "dist/v3-date.umd.js",
+  "module": "dist/v3-date.es.js",
   "exports": {
     ".": {
-      "import": "./dist/advanced-datepicker-vue-3.es.js",
-      "require": "./dist/advanced-datepicker-vue-3.umd.js"
+      "import": "./dist/v3-date.es.js",
+      "require": "./dist/v3-date.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
